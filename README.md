@@ -17,7 +17,7 @@ There you can find a .txt . Open it and go the section “*Text*”. Once there 
 ####Docs   
 The section called Docs should host a listing of all the tables elements with their own definition, repeatability status etc. I added the general register as an example.      
 **For modifying it:**   
-Go to /content/3-docs/ and choose the steps you want to modify. For each of them there is a folder with the register name (ex: *Object register*). There you can find a .txt . Once it is open go the section “*Text*:”. There, you can add the elements following the stylistic example of the Project Defintion Step (Project Register is the most complete of the two).  Use [Markdown syntax](https://daringfireball.net/projects/markdown/syntax)  
+Go to /3-docs/ and choose the steps you want to modify. For each of them there is a folder with the register name (ex: *Object register*). There you can find a .txt . Once it is open go the section “*Text*:”. There, you can add the elements following the stylistic example of the Project Defintion Step (Project Register is the most complete of the two).  Use [Markdown syntax](https://daringfireball.net/projects/markdown/syntax)  
 
    
    
