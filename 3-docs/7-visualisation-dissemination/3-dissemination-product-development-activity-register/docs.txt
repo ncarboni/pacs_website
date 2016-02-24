@@ -1,0 +1,89 @@
+Title: Dissemination Product Development Activity Register
+
+----
+
+Description: Documentation of the parameters used during the dissemination step
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3:Product Development  ID	)
+*Here a unique identifier is given for the product development activity.*
+Type: *Number*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Part of Dissemination Project)	
+*Indicate the relationships between this steps and the Dissemination Project.*
+Type: *Link - ((link: docs/visualisation-dissemination/dissemination-project-register text: Dissemination Project Register))
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Part of Product Development Plan)	
+*Here the product development plan to which the product development activity belongs is indicated.*
+Type: *Link - ((link: docs/visualisation-dissemination/dissemination-product-development-plan text: Product Development Plan))
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Product Development Activity Type)	
+*Here the kind of product development activity that is being undertaken is indicated.*
+Type: *Text from Controlled List - ((link: http://# text: Product Development Activity Type))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Actor)	
+*Here the actor or actors responsible for carrying out this activity are indicated.*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Software Used)	
+*Here the software actually used in executing the product development activity is indicated, along with version and other relevant details.*
+Type: *Text from Controlled List - ((link: http://# text: Software))*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Hardware Used)	
+*Here a link to the hardware devices used in the carrying out of the process.*
+Type: *Link - ((link: docs/general-register/equipment-register text: Equipment Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Algorithm Used)	
+*Here the algorithm employed by the software to execute the product development activity is indicated.*
+Type: *Text from Controlled List - ((link: http://# text: Algorithm))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Methodology Used)
+*Here the methodology employed in executing this processing loop is specified by picking from a controlled list of methodologies. This list is enumerated at the end of this document.*
+Type: *Text from Controlled List - ((link: http://# text: Methodology))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Used Input Files)	
+*Here we link to the input files for executing this action.*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Used Parameters)	
+*Here we indicate the parameter types that were used in carrying out this action.*
+Type: *Text from Controlled List - ((link: http://# text: Parameters Types))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Had Output Files)	
+*Here we indicate the output files from running this action.*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Processing Date)	
+*Here we indicate the date on which the action was undertaken.*
+Type: *Date*
+Required: *YES*
+Repeatable: *NO*

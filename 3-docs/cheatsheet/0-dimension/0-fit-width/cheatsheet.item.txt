@@ -1,0 +1,38 @@
+Title:
+
+$dimension->fitWidth()
+
+----
+
+Excerpt:
+
+Fits the width by the given value and returns a modified dimension object
+
+----
+
+Return:
+
+type: $image
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php
+
+$image = $page->image();
+$image->dimensions()->fitWidth(300);
+
+echo html::tag('img', array(
+  'src'    => $image->url(),
+  'width'  => $image->width(),
+  'height' => $image->height()
+));
+
+?>
+
+```

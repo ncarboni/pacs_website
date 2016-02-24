@@ -1,0 +1,28 @@
+Title:
+
+$page->nextInvisible()
+
+----
+
+Excerpt:
+
+Returns the next invisible sibling
+
+----
+
+Return:
+
+type: $page
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if($next = $page->nextInvisible()): ?>
+<a href="<?php echo $next->url() ?>">next invisible page</a>
+<?php endif ?>
+```

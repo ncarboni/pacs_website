@@ -1,0 +1,27 @@
+Title:
+
+$file->read()
+
+----
+
+Excerpt:
+
+Reads the content of a file and returns it
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+echo $page->file('readme.md')->read();
+// returns the content of the file
+```

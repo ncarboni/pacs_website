@@ -1,0 +1,31 @@
+Title:
+
+$file->hasNext()
+
+----
+
+Excerpt:
+
+Checks if there's a next sibling
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+$file = $page->file('myfile.pdf');
+
+if($file->hasNext()) {
+  echo 'Next file: ' . $file->next()->filename();
+}
+
+```

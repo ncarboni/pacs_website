@@ -1,0 +1,20 @@
+Title:
+
+$page->isAncestorOf($child)
+
+----
+
+Excerpt:
+
+Checks if the page is a direct or indirect ancestor of the given $page object.
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:

@@ -1,0 +1,49 @@
+Title: Question Register
+
+----
+
+Description: Descriptors for the scientific questions which drive the process.
+
+----
+
+Text: 
+
+(toc:4)
+
+
+(l3: Question)
+*A plain language, concise description of the scientific problem or dissemination goal that the digitisation would help to answer/achieve*
+Type: *Long Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Question Of)
+*Relation from the question to the relevant project.*
+Type: *Link - ((link: docs/project-definition/project-register text: Project Register))*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Notes)
+*Where one can write a free description of the requirement for answering this question*
+Type: *Long Text*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Pipeline Planning)
+*A planning list of the objects relevant to answering this question and the potential acquisition, processing and visualization activities needed to move towards answering the proposed question. This is a projective planning list, it can include different projective plans. It is meant for the internal use of the digitisation team.
+e.g. Castle + Photogrammetry + SURE + Web Model + a note goes here*
+Type: *Link - ((link: docs/general-register/object text: Object Register)) + Control List ((link: http://# text: Acquisition Types)) + Control List ((link: http://# text: Processing Types)) + Control List ((link: http://# text: Visualization Types)) + Note*
+Required: *No*
+Repeatable: *Yes*
+
+(l3: Stakeholders)
+*List of People Relevant to this question and its incumbent activities and the role that they would play in working on it.*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register)) + Control List ((link: http://# text: Actor Role))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Related Documentation)
+*A list of documents relevant to this particular question and its incumbent activities.*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*

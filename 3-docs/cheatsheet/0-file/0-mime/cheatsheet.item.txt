@@ -1,0 +1,27 @@
+Title:
+
+$file->mime()
+
+----
+
+Excerpt:
+
+Returns the file's mime type
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+echo $page->image('my-image.jpg')->mime();
+// echos image/jpeg
+```

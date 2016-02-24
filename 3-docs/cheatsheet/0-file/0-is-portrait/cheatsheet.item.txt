@@ -1,0 +1,28 @@
+Title:
+
+$file->isPortrait()
+
+----
+
+Excerpt:
+
+Checks if an image file has been taken in portrait mode.
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if($page->image()->isPortrait()): ?>
+This image has been taken in portrait mode
+<?php endif ?>
+```

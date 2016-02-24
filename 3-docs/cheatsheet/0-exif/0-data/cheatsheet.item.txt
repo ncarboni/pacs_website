@@ -1,0 +1,24 @@
+Title:
+
+$exif->data()
+
+----
+
+Excerpt:
+
+Returns the full exif data set as a raw array.
+
+----
+
+Return:
+
+type: array
+text:
+
+----
+
+Text:
+
+```php
+dump($page->image()->exif()->data());
+```

@@ -1,0 +1,34 @@
+Title:
+
+$site->page($uri = null)
+
+----
+
+Excerpt:
+
+Returns a specific $page object by URI. If no URI is specified the currently active page will be returned.
+
+----
+
+Return:
+
+type: $page
+text:
+
+----
+
+Text:
+
+## Example
+
+### Fetching the current page
+
+```php
+<?php echo $site->page()->title() ?>
+```
+
+### Fetching any subpage
+
+```php
+<?php echo $site->page('some/sub/page/deep/down')->title() ?>
+```

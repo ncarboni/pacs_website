@@ -1,0 +1,72 @@
+Title: Digital Asset Register
+
+----
+
+Description: Metadata regarding the digital assets used
+
+----
+
+Text: 
+
+(toc:4)
+
+
+(l3: Digital Asset Name)
+*Indicate the name of the assets*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: ID)
+*A unique ID assigned to the document*
+Type: *Text*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Digital Asset Type)
+*Indicate the digital asset type*
+Type: *Text from Controlled List - ((link: http://# text: Digital Asset Types))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Number of Files)
+*If this is a multi object file, such as a zip, indicate total content of file.*
+Type: *Numeric*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Digital Asset Creator)
+*Link to person or organisation who created asset*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Digital Asset Creation Date	)
+*Date of creation of asset*
+Type: *Date*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Refers to)
+*Here you put any object that this asset is related to *
+Type: *Link - ((link: docs/general-register/object text: Object Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Document Storage)
+*Place of storage of document*
+Type: *Text*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Format)
+*The encoding of the file*
+Type: *Text*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Subject)
+*Topics/Themes of the document. Preferably from a controlled vocabulary*
+Type: *Text from Controlled List - ((link: http://# text: Subject List))*
+Required: *NO*
+Repeatable: *YES*

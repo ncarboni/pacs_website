@@ -1,0 +1,97 @@
+Title: Object Register
+
+----
+
+Description: Descriptors of the object of analysis
+
+----
+
+Text: 
+
+(toc:4)
+
+ 	
+(l3: Object Name)
+*A standard name for the object in question*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Object ID)
+*The commonly recognizable ID of the object in questions*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Object ID Institution)
+*The name of the institution providing the ID*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *NO*
+Repeatable: *YES*	
+
+(l3: Part Of)
+*Link to the main object that this object forms a part of.*
+Type: *Link - ((link: docs/general-register/object text: Object Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Object Type)
+*A field to indicate the kind of object. Should make use of some sort of standard relevant to the object type*
+Type: *Text from Controlled List - ((link: http://# text: Object Types))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Institution responsible for)
+*A field to indicate who is the usual custodian of this object*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *YES*
+Repeatable: *YES*	
+
+(l3: Found at)
+*Place where object is found (Country, City, Building, Drawer… as you known)*
+Type: *Text*
+Required: *NO*
+Repeatable: *NO*	
+
+(l3: Location / Storage Place)
+*Place where object is currently located (Country, City, Building, Drawer… as you known)*
+Type: *Text*
+Required: *NO*
+Repeatable: *NO*	
+
+(l3: Material)
+*Actual object’s surface materials*
+Type: *Text from Controlled List - ((link: http://# text: Material Types))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Reflectance Qualities)
+*Surface reflectance characteristics of the object eg. diffuse, specular, reflective*
+Type: *Text from Controlled List - ((link: http://# text: Reflectance List))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Dimension)
+*Records the size of the object*
+Type: *Numeric*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Conservation Status)
+*The conservation status of the object*
+Type: *Text from Controlled List - ((link: http://# text: Conservation Status))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Handling Constraints)
+*Type of constraints in handling the object*
+Type: *Text from Controlled List - ((link: http://# text: Handling Constraints))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Constraint Notes)
+*Notes regarding the handling constraints. 
+e.g. reasons, how to handle etc*
+Type: *Long Text*
+Required: *NO*
+Repeatable: *YES*

@@ -1,0 +1,26 @@
+Title:
+
+$page->id()
+
+----
+
+Excerpt:
+
+Returns the page id, which is the untranslated URI.
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->id() ?>
+```

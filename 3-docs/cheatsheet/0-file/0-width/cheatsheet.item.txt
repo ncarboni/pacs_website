@@ -1,0 +1,26 @@
+Title:
+
+$file->width()
+
+----
+
+Excerpt:
+
+Returns the width of image files in pixels
+
+----
+
+Return:
+
+type: integer
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->image()->width();
+```

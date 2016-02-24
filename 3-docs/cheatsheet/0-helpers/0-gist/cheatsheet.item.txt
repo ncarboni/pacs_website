@@ -1,0 +1,22 @@
+Title: gist($url)
+
+----
+
+Excerpt: Embeds a Gist from Github by URL
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo gist('https://gist.github.com/bastianallgeier/b79615a9f7ca76c810b7') ?>
+```

@@ -1,0 +1,22 @@
+Title: $field->widont()
+
+----
+
+Excerpt: Avoids typographical widows in strings by replacing the last space with `&nbsp;`
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->title()->widont() ?>
+```

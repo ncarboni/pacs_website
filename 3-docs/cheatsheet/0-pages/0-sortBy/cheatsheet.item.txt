@@ -1,0 +1,42 @@
+Title:
+
+$pages->sortBy($field, $direction = 'asc', $method = SORT_REGULAR)
+
+----
+
+Excerpt:
+
+Returns a sorted version of the collection.
+
+----
+
+Return:
+
+type: $pages
+text: 
+
+----
+
+Text:
+
+## Example
+
+```php
+<ul>
+  <?php foreach($page->children()->sortBy('title', 'desc') as $subpage): ?>
+  <li>
+    <a href="<?php echo $subpage->url() ?>">
+      <?php echo html($subpage->title()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```
+
+It's also possible to sort by more than one field like this:
+
+```php
+<?php
+$articles = page('blog')->children()->sortBy('date', 'desc', 'time', 'asc');
+?>
+```

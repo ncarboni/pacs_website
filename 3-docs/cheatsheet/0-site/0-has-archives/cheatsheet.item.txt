@@ -1,0 +1,20 @@
+Title:
+
+$site->hasArchives()
+
+----
+
+Excerpt:
+
+Checks if there are any archive files (zip, gzip, tar) placed directly in /content
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:

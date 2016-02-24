@@ -1,0 +1,34 @@
+Title:
+
+$user->logout()
+
+----
+
+Excerpt:
+
+Logs out the user and kills the session.
+
+----
+
+Return:
+
+type: nothing
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php
+
+if($user = $site->user()) {
+  $user->logout();
+}
+
+go('login');
+
+?>
+```

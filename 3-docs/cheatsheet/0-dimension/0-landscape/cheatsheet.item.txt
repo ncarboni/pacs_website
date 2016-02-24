@@ -1,0 +1,28 @@
+Title:
+
+$dimension->landscape()
+
+----
+
+Excerpt:
+
+Checks if the dimensions are "landscape"
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if($page->image()->landscape()): ?>
+This image has been taken in landscape mode
+<?php endif ?>
+```

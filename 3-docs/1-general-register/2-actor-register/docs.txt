@@ -1,0 +1,49 @@
+Title: Actors Register
+
+----
+
+Description: Metadata regarding the main actors of the process
+
+----
+
+Text: 
+
+(toc:4)
+
+
+(l3: Name)
+*The name of the actor be it a person or institution or group*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Actor ID)
+*The commonly recognizable ID of the actor in questions*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Actor Type)
+*The kind of actor this is. 
+E.g. Person, institution, group*
+Type: *Text from Controlled List - ((link: http://# text: Actor Types))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Role)
+*This is the person’s general role in life as we know them as an institution. For each different action in the project they may take on a different role. So this could be the CEO, but in the acquisition action, he could be the cameraman*
+Type: *Text from Controlled List - ((link: http://# text: Actor Roles))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Affiliation)
+*An affiliation of an actor to an other actor and the kind of affiliation*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Contact point)
+*Data on how to contact the individual*
+Type: *Text*
+Required: *NO*
+Repeatable: *YES*

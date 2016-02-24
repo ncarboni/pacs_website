@@ -1,0 +1,20 @@
+Title:
+
+$page->hasVisibleChildren()
+
+----
+
+Excerpt:
+
+Checks if the page has any visible children.
+
+----
+
+Return:
+
+type: integer
+text:
+
+----
+
+Text:

@@ -1,0 +1,22 @@
+Title: $urls->thumbs()
+
+----
+
+Excerpt: Returns the URL of the thumbs folder
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirby()->urls()->thumbs() ?>
+```

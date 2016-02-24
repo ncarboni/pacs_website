@@ -1,0 +1,42 @@
+Title:
+
+$user->update($data = array())
+
+----
+
+Excerpt:
+
+Updates the user account information.
+
+----
+
+Return:
+
+type: $user
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+try {
+
+  $site->user('bastian')->update(array(
+    'email'     => 'bastian@getkirby.com',
+    'firstName' => 'Bastian',
+    'lastName'  => 'Allgeier'
+  ));
+
+  echo 'The user has been updated';
+
+} catch(Exception $e) {
+
+  echo 'The user could not be updated';
+  // optional reason: echo $e->getMessage();
+
+}
+
+```

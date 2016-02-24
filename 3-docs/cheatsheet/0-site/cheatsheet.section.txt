@@ -1,0 +1,15 @@
+Title: 
+
+$site
+
+----
+
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Contains all relevant information about the site

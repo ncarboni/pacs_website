@@ -1,0 +1,36 @@
+Title: Preliminary Studies
+
+----
+
+Year: 
+
+----
+
+Text: 
+
+(image: step2.png)
+
+While the research domain and profession of digital survey involves constantly changing technology and the application of novel techniques according to the latest progress in research methodology, it is a process deeply embedded in academic and professional traditions. A complete digital survey process must position itself with regards to the existing research and understanding of the objects of which it undertakes to provide an analysis and ought to avail itself of the existing resource basis of research outputs while examining both previous geometric documentation and bibliography. Furthermore, as a study of objects susceptible to processes of generation, modification and decay, both with regards to the object itself and the surrounding space to which it is related, a site-visit to study the latest state of the object is required. This research step serves to inform all the following steps as reference and potential input to the planning and processing stages. Each research activity is envisioned as related to at least a project and potentially to a particular research question raised during the project. We therefore propose the preparation of a research register to explicitly document different research questions undertaken. These can be linked to registers documenting bibliography, previous geometric documentation and site visit data.
+
+<table style="width:100%">
+   <tr>
+     <td><strong>Name<strong></td>
+     <td><strong>Element<strong></td> 
+   </tr>
+   <tr>
+     <td>Central Register</td>
+     <td>(link: docs/preliminary-studies/research-register text: Research), (link: docs/preliminary-studies/site-visit-register text: Site Visit), (link: docs/preliminary-studies/bibliographic-register text: Bibliographic)</td> 
+   </tr>
+   <tr>
+     <td>Supporting Register</td>
+     <td>(link: docs/project-definition/question-register text: Question), (link: docs/general-register/actor-register text: Actors), (link: docs/general-register/digital-asset text: Digital Assets), (link: docs/project-definition/project-register text: Project)</td> 
+   </tr>
+   <tr>
+     <td>Related Control Lists</td>
+     <td><a href="#">Publication Type</a></td> 
+   </tr>
+ </table>
+
+----
+
+Tags: 

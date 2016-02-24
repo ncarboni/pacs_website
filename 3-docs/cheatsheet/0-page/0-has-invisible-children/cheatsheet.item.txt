@@ -1,0 +1,20 @@
+Title:
+
+$page->hasInvisibleChildren()
+
+----
+
+Excerpt:
+
+Checks if the page has any invisible children
+
+----
+
+Return:
+
+type: integer
+text:
+
+----
+
+Text:

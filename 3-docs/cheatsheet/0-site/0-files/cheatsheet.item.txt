@@ -1,0 +1,36 @@
+Title:
+
+$site->files()
+
+----
+
+Excerpt:
+
+Returns a $files collection with all files placed directly in /content
+
+----
+
+Return:
+
+type: $files
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<h2>Files</h2>
+<ul>
+  <?php foreach($site->files() as $file): ?>
+  <li>
+    <a href="<?php echo $file->url() ?>">
+      <?php echo $file->filename() ?>
+      (<?php echo $file->niceSize() ?>)
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

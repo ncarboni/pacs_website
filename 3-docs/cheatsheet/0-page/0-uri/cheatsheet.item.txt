@@ -1,0 +1,26 @@
+Title:
+
+$page->uri()
+
+----
+
+Excerpt:
+
+Returns the URI. The URI is the relative URL without the host or any subfolders.
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->uri() ?>
+```

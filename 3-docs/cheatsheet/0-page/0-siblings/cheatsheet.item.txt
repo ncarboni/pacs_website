@@ -1,0 +1,20 @@
+Title:
+
+$page->siblings($self = true)
+
+----
+
+Excerpt:
+
+Returns all siblings.
+
+----
+
+Return:
+
+type: $pages
+text:
+
+----
+
+Text:

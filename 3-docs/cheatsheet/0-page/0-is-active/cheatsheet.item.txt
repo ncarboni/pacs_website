@@ -1,0 +1,36 @@
+Title:
+
+$page->isActive()
+
+----
+
+Excerpt:
+
+Checks if the page is the currently active page.
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<nav role="navigation">
+  <ul>
+    <?php foreach($pages as $subpage): ?>
+    <li<?php e($subpage->isActive(), ' class="active"') ?>>
+      <a href="<?php echo $subpage->url() ?>">
+        <?php echo html($subpage->title()) ?>
+      </a>
+    </li>
+    <?php endforeach ?>
+  </ul>
+</nav>
+```

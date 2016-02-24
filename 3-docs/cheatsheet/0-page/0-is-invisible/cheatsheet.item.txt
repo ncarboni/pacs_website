@@ -1,0 +1,20 @@
+Title:
+
+$page->isInvisible()
+
+----
+
+Excerpt:
+
+Checks if the page is invisible.
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:

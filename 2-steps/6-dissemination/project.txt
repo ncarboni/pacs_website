@@ -1,0 +1,42 @@
+Title: Dissemination
+
+----
+
+Year: 
+
+----
+
+Text: 
+
+(image: step6.png)
+
+The dissemination aspect of the digital survey process can range widely in the requested products. From a model for simple visualizations by the public to full scale interactive and 4 dimensional environments, the production of the dissemination products of a digital survey project could be the subject of an entire workflow control process of its own. However, for small and medium interdisciplinary teams, one can consider it as the completing cycle of the production of results from a digital survey process. It is therefore desirable to model the minimum control mechanism for managing this process and connecting it to the previous steps. Indeed, considering dissemination as an integrated and controlled process within the scientific production stream, allows one to more closely correlate dissemination material with the scientific results obtained from controlled acquisition and data processing events. In fact, we can consider the dissemination control process under a similar structure to the processing structure, changing largely the consideration of goal variables. While processing must consider at its base questions of accuracy, dissemination must consider questions of suitability for an audience. We therefore propose a parallel tripartite structure to the processing control activity. 
+
+The structure consists then of the basic documentation unit of the dissemination project that has as its goal one or more related dissemination products. The overall project has documentation fields especially for the targeted audience, the aim of the dissemination product and the aimed for dates of production. 
+
+Each dissemination project will entail a number of internal development cycles that will require their own planning. In the dissemination cycle, the developers can take full advantage of all products produced within the digital survey pipeline to this point. They may therefore import assets from the research, acquisition and processing phases as part of the base materials from which to construct their final product. This provides a map of provenance of the inputs to the end product, while not providing overly onerous metadata entry requirements on the data creator. Each individual product of a the dissemination cycle should be subject to at least one if not more planning events. These serve as the control base from which to execute processing for the development of dissemination products.
+
+Parallel to the proposed production control processes, we suggest that each significant processing event for the production of a dissemination product be documented and related to its relevant production plan. The inputs and outputs of the process and an evaluation help to track whether the processing achieved its end and determine whether or not the processing can be considered as accepted or must be run again with a reconfigured processing plan.
+
+<table style="width:100%">
+   <tr>
+     <td><strong>Name<strong></td>
+     <td><strong>Element<strong></td> 
+   </tr>
+   <tr>
+     <td>Central Register</td>
+     <td>(link: docs/visualisation-dissemination/dissemination-project-register text: Dissemination Project), (link: docs/visualisation-dissemination/dissemination-product-development-plan text: Product Development Plan), (link: docs/visualisation-dissemination/dissemination-product-development-activity-register text: Dissemination Product Development Activity)</td> 
+   </tr>
+   <tr>
+     <td>Supporting Register</td>
+     <td>(link: docs/general-register/object text: Object), (link: docs/general-register/actor-register text: Actors), (link: docs/general-register/object text: Object), (link: docs/general-register/digital-asset text: Digital Assets), (link: docs/preliminary-studies/bibliographic-register text: Bibliographic), (link: docs/general-register/equipment-register text: Equipment), (link: docs/preliminary-studies/site-visit-register text: Site Visit) </td> 
+   </tr>
+   <tr>
+     <td>Related Control Lists</td>
+     <td><a href="#">Dissemination Goal</a>, <a href="#">Target Public</a>, <a href="#">Language</a>, <a href="#">Digital Product Types</a>, <a href="#">Acquisition Product Type</a>, <a href="#">Processed Product Type</a>, <a href="#">Software</a>, <a href="#">Methodology</a>, <a href="#">Product Development Activity Type</a>, <a href="#">Algorithm</a>, <a href="#">Parameters Types</a></td>
+   </tr>
+ </table>
+
+----
+
+Tags: 

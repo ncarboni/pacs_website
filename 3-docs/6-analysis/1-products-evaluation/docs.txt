@@ -1,0 +1,47 @@
+Title: Products Evaluation
+
+----
+
+Description: Evaluation of a single output in relation to established criteria 
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Relevant Question)
+*Here the initial question which triggered the creation of this digital product is referenced.*
+Type: *Link - ((link: docs/project-definition/question-register text: Question Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Product Evaluated	)
+*Here the digital product that was created and linked to and evaluated. Each object can be evaluated according to multiple criteria. For each product this form should be filled out once.*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Evaluation Criteria)	
+*Here the criterion by which the object was evaluated are listed, along with the evaluation itself.*
+Type: *Text from Controlled List - ((link: http://# text: Evaluation Criteria)) + Long Text*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Accept/Reject)	
+*Here an indication of the overall acceptance or rejection of the product is indicated.*
+Type: *Boolean*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Evaluator Name	)
+*Here the actor accepting or rejecting the product is listed.*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Date of Evaluation)	
+*Here the date on which the evaluation took place is listed.*
+Type: *Date*
+Required: *NO*
+Repeatable: *NO*

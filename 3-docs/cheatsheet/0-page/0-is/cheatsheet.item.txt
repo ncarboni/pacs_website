@@ -1,0 +1,20 @@
+Title:
+
+$page->is($other)
+
+----
+
+Excerpt:
+
+Compares the page with another $page object and checks if they are the same.
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:

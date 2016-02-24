@@ -1,0 +1,22 @@
+Title: xml($text)
+
+----
+
+Excerpt: Converts any text to valid XML
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo xml($page->text()) ?>
+```

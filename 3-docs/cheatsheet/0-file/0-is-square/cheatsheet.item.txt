@@ -1,0 +1,28 @@
+Title:
+
+$file->isSquare()
+
+----
+
+Excerpt:
+
+Checks if the image is square
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if($page->image()->isSquare()): ?>
+This image is square
+<?php endif ?>
+```

@@ -1,0 +1,22 @@
+Title: youtube($url)
+
+----
+
+Excerpt: Embeds a Youtube video by URL
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo youtube('https://www.youtube.com/watch?v=mbyzgeee2mg') ?>
+```

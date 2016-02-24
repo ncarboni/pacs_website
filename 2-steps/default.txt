@@ -1,0 +1,25 @@
+Title: Process Analysis
+
+----
+
+Text: 
+
+Visual 3D modelling of objects using photogrammetry is a well- established and low-cost process that can typically be divided into the following steps: project planning (equipment, staff, budget, time, etc), data acquisition (image and reference system observations), data processing (from images to point clouds and photorealistic 3D models) .
+
+We propose a typical workflow for a complete digitisation, breaking it up into seven iterative and repeatable steps: 
+
+1. (link: steps/project-definition text: Project planning)
+2. (link: steps/preliminary-studies text: Preliminary studies)
+3. (link: steps/acquisition text: Data acquisition)
+4. (link:steps/processing text: Data processing)
+5. (link: steps/analysis text: Result analyses and acceptance testing)
+6. (link: steps/dissemination text: Dissemination)
+7. (link: steps/conclusion text: Delivery)
+
+For each step, we propose an information workflow methodology and metadata schema for capturing the data relevant to each step.
+
+Each of the information workflows provided is the result of an extensive process analysis of the syntactical unit of information behind the data production and exchange in the photogrammetric process. The results are encoded into seven Business Process Diagrams (BPD), a specific type of diagram that uses the Business Process Modeling Notation 2.0 (BPMN).
+
+The BPD helps us to focus on the relevant events of a photogrammetric project, demonstrating how the different participants interact and how the results of such processes generate the data complexity that needs to be accounted for within our model. Furthermore it allows to define when the documentation should be created and updated, as well as who is in charge for doing so.
+
+Each of the BPD is joined with a set of registers that allow the description of all the relevant information established in the BPD itself. The conceptual schema can then be easily formalised in XML (eXtensible Markup Language) or DDL (Data Definition Language).

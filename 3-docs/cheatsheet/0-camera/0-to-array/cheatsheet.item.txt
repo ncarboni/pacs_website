@@ -1,0 +1,26 @@
+Title:
+
+$camera->toArray()
+
+----
+
+Excerpt:
+
+Returns the make and model as associative array.
+
+----
+
+Return:
+
+type: array
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->image()->exif()->camera()->toArray() ?>
+```

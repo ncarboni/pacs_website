@@ -1,0 +1,28 @@
+Title:
+
+$dimension->portrait()
+
+----
+
+Excerpt:
+
+Checks if the dimensions are "portrait"
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if($page->image()->dimensions()->portrait()): ?>
+This image has been taken in portrait mode
+<?php endif ?>
+```

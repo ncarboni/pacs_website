@@ -1,0 +1,174 @@
+Title: Equipment Setup Parameters Register
+
+----
+
+Description: Description of the equipement parameters employed
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Camera Body)
+*Here a link to the camera body actually used is made.*
+Type: *Link - ((link: docs/general-register/equipment-register text: Equipment Register))*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Setup Of)
+*Indicate the setup of which acquisition activity.*
+Type: *Link - ((link: docs/acquisition/acquisition-activity-register text: Acquisition Activity Register))*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Lens)
+*Name of the lense.*
+Type: *Link - ((link: docs/general-register/equipment-register text: Equipment Register))*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Platform)
+*Platform from which the pictures were taken and its stability.*
+Type: *Link - ((link: docs/general-register/equipment-register text: Equipment Register))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Orientation)	
+*X, Y, Z, roll, yaw, pitch (if known). If the camera is mounted on any platform with a IMU/GNSS sensor, this parameters can be used as initial parameters of the orientation.*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: ISO)	
+*Light sensibility value selected if manual or automatic*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Shutter mode)
+*Automatic/Fully Manual/Aperture priority/Shutter speed priority*
+Type: *Text from Controlled List - ((link: http://# text: Shutter Mode Types))*
+Required: *YES* 
+Repeatable: *NO*
+
+(l3: Shutter speed)	
+*Length of time expressed in seconds when the digital sensor in the camera is exposed to light through the shutter mechanism*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Aperture / f-stops )	
+*The amount of light to which the sensor is exposed (f-stops), regulates the brightness of the image*
+Type: *Number*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Focus)	
+*Automatic or manual focus*
+Type: *Boolean*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Focus Fixed)	
+*Fixed or variable focus*
+Type: *Boolean*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Focus distance)	
+*Medium focus distance from the camera to the focus point.*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Depth of field	)	
+*Distance between the nearest and farthest objects of the scene that appear sharp in the image.*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Focal Length)	
+*Distance from the principal point of the camera to the image plane. If it is blocked at minimum or maximum, otherwise leave as unknown.*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: White balance)	
+*Here the white balance employed: Automatic, pre-set or manual.*
+Type: *Text from Controlled List - ((link: http://# text: White Balance))*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: White balance preset)	
+*White balance preset used (tungsten, sunlight)*
+Type: *Text from Controlled List - ((link: http://# text: White Balance Preset))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: White balance manual methodology used)	
+*Reference to the method used for defining the white balance.*
+Type: *Text*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Digital Image for Calibration)
+*The digital used for calibrating the white balance.*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Lightmeter used)
+*The Lightmeter used for the light calculation.*
+Type: *Link - ((link: docs/general-register/equipment-register text: Equipment Register))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Lightmeter value)	
+*The value found by the Lightmeter.*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Camera Calibrated - geometric calibration)	
+*Yes if camera internal orientation calibration parameters calculated before the acquisition, no if otherwise*
+Type: *Boolean*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Color calibration)	
+*Yes if the color calibration are calculated, no if otherwise*
+Type: *Boolean*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: HDR)	
+*Yes if HDR capturing was performed*
+Type: *Boolean*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: HDR technique)	
+*HDR technique used (Bracketing vs actual HDR camera).*
+Type: *Text*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: HDR Bracketed series)	
+*Number of images taken for exposure bracketing.*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: HDR exposure values)	
+*The exposure value chosen for the HDR.
+ex: -2EV, 0EV, 2EV*
+Type: *Text*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Documents	)
+*Documents related to equipment e.g. manuals, technical specifications etc*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*

@@ -1,0 +1,26 @@
+Title:
+
+$page->hash()
+
+----
+
+Excerpt:
+
+Returns a unique hash for the page, which is used by tinyurls.
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->hash() ?>
+```

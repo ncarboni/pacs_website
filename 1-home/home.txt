@@ -1,0 +1,5 @@
+Title: Home
+
+----
+
+Text: Here we propose an overall workflow with related metadata to track all phases of digital product creation, both to enable data provenance and also to be used to validate the success of the operations from an analytic and production perspective. This approach aims to support the users in defining procedures over the long term for different types of analysis, based on the features and scope required for the digital product by the end user.

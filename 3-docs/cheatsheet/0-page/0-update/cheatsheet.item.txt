@@ -1,0 +1,63 @@
+Title:
+
+$page->update($data = array() [, $lang = null])
+
+----
+
+Excerpt:
+
+Updates the page content with all passed variables.
+
+----
+
+Return:
+
+type: $page
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+try {
+
+  page('mypage')->update(array(
+    'title'        => 'A new title',
+    'text'         => 'Some text',
+    'anotherfield' => 'Some more data'
+  ));
+
+  echo 'The page has been updated';
+
+} catch(Exception $e) {
+
+  echo $e->getMessage();
+
+}
+
+```
+
+## Multi-language site
+Use the optional `$lang` parameter to specify the language you want to update.
+
+```php
+try {
+
+  page('mypage')->update(array(
+    'title'        => 'A new title',
+    'text'         => 'Some text',
+    'anotherfield' => 'Some more data'
+  ), 'en');
+
+  echo 'The page has been updated';
+
+} catch(Exception $e) {
+
+  echo $e->getMessage();
+
+}
+
+```

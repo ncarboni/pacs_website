@@ -1,0 +1,20 @@
+Title:
+
+$page->hasPrev()
+
+----
+
+Excerpt:
+
+Checks if the page has a previous sibling
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:

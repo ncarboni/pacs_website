@@ -1,0 +1,122 @@
+Title: Object Acquisition Configuration Register
+
+----
+
+Description: Documentation on the object configuration in relation to the acquisition
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Camera Configuration Type)
+*Relative geometry of the image plane with respect to the object plane. Normal is when these two planes are parallel. e.g. Convergent/normal.*
+Type: *Text from Controlled List - ((link: http://# text: Camera Configuration Type))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Part Of	)
+*Indicate the relationships between the below field and the Acquisition Activity*
+Type: *Link - ((link: docs/acquisition/acquisition-activity-register text: Acquisition Activity Register))*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Average GSD )	
+*Average Ground Sample Distance, average size of a pixel projected on the 3D object space.*
+Type: *Number*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Percentage of Object Covered)	
+*Percentage of object which can be covered by a single picture at the average distance from the object selected*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Average Distance From The Object)	
+*The distance between the acquisition point and the average object surface*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Forward/longitudinal Overlap)
+*Percentage of overlap between the images over the main acquisition direction (stripe)*
+Type: *Number*
+Required: *NO* 
+Repeatable: *NO*
+
+(l3: Side Overlap)	
+*Percentage of overlap between the images in the orthogonal direction to the main acquisition one*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Markers)	
+*Indicate the presence of markers.*
+Type: *Boolean*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Markers type/codification)	
+*Type of markers which have been placed or identified at the object itself or its environment. 
+Eg. natural marks, codified marks, crosses, balls...*
+Type: *Text from Controlled List - ((link: http://# text: Marker Types))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Markers Number)	
+*Total number of markers either placed or identified at the object or its environment*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Markers Digital File)	
+*Digital file relative to the marker acquired for the acquisition*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: GCP)	
+*Indicate the presence of Ground Control Points*
+Type: *Boolean*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: GCP Number)	
+*Total number of GCP measured in the object or its environment.*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: GCP Digital File)	
+*Digital file relative to the coordinates acquired for the GCP*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: On-site Camera Calibration)	
+*Define if a calibration process was performed on site before the actual camera acquisition. 
+eg. use of calibrated grid or board*
+Type: *Boolean*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Image base/baseline)	
+*Distance between two sequential image acquisition points (projection centers).*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Obstacles)	
+*Indicate the presence or absence of obstacles and, in case it is necessary, add the necessary notes.*
+Type: *Boolean + Text*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Documents	)
+*Documents created during the acquisition that serve for better understanding of the setup or the acquisition process 
+e.g. sketches.*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*

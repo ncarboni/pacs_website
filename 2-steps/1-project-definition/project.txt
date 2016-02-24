@@ -1,0 +1,37 @@
+Title: Project Definition
+
+----
+
+Year: 
+
+----
+
+Text: 
+
+(image: step1.png)
+
+For the stable documentation of a complex and multi-actor process, a central register must be developed to serve as the point of reference for all involved stakeholders. The logical unit of documentation for the central element of the digital survey process is a register of the project to reference all intersecting and related activities, objects, documents, actors, etc. We would argue that each digital survey project is initiated in order to answer one or more research questions. The initiation of a digital survey project necessitates the registration and understanding of this series of research questions and  projective planning of the kinds of activities in terms of acquisition, processing and dissemination product creation that would be necessary to meet these aims. Such a process of analysis, we argue, forms a natural part of any scientific  activity, but is often documented only in narrative form or, in the worst cases,  even remains implicit in the minds of the actors initiating the project. 
+As digital surveys grow in complexity and increasingly employ intensive interdisciplinary collaborations between different actors, the need for explicit documentation of these steps becomes more urgent. Such externalization of project details and, particularly, the recording of an explicit register of questions, projective techniques and solutions to apply to the question not only offer a reference support during the project but contributes to the sustainability of the project data as well as to the long term evaluation of techniques and methodologies related to questions of a given type, moreover aiding in the comparison of projected methods against the methods that were actually used and led to effective solutions. The compilation of the project register co-entails the beginning of the compilation of a series of associated registers which will be added to and referenced throughout the rest of the digital survey project. In particular registers for objects of study, actors involved and digital documents receives an initial compilation.
+
+<table style="width:100%">
+  <tr>
+    <td><strong>Name<strong></td>
+    <td><strong>Element<strong></td> 
+  </tr>
+  <tr>
+    <td>Central Register</td>
+    <td>(link: docs/project-definition/project-register text: Project),  (link: docs/project-definition/question-register text: Question)</td> 
+  </tr>
+  <tr>
+    <td>Supporting Register</td>
+    <td>(link: docs/general-register/object text: Object), (link: docs/general-register/actor-register text: Actors), (link: docs/general-register/digital-asset text: Digital Assets)</td> 
+  </tr>
+  <tr>
+    <td>Related Control Lists</td>
+    <td><a href="#">Project Types</a>, <a href="#">Actor Role</a>, <a href="#">Acquisition Types</a>, <a href="#">Processing Types</a>, <a href="#">Visualization Types</a></td> 
+  </tr>
+</table>
+
+----
+
+Tags: 

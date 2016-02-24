@@ -1,0 +1,27 @@
+Title:
+
+$file->orientation()
+
+----
+
+Excerpt:
+
+Returns the orientation of image files as a string (landscape, portrait, square)
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+echo $page->image('my-image.jpg')->orientation();
+// landscape, portrait or square
+```

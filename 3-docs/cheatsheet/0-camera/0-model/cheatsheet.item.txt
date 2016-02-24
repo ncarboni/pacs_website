@@ -1,0 +1,26 @@
+Title:
+
+$camera->model()
+
+----
+
+Excerpt:
+
+Returns the name of the camera model
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->image()->exif()->camera()->model() ?>
+```

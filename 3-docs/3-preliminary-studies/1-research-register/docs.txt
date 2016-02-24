@@ -1,0 +1,59 @@
+Title: Research Register
+
+----
+
+Description: Collection of previously compiled information on the object of analysis
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Researcher Name)
+*Here we indicate the researcher(s) assigned to carry out background research on the objects that will be digitized and their general context.*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Project)
+*Link to Project of which this research is a part.*
+Type: *Link - ((link: docs/project-definition/project-register text: Project Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Question	)
+*Link to project research question, that research aims to help elaborate at a first stage.*
+Type: *Link - ((link: docs/project-definition/question-register text: Question Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Site Visit Data	)
+*Link to site visit data, used to obtain contemporary information about the object.*
+Type: *Link - ((link: docs/preliminary-studies/site-visit-register text: Site Visit Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Previous Digital Data)	
+*Link to previous geometric data files available with regards to the objects in question.*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Bibliography)	
+*Link to bibliographic data available with regards to the objects in question.*
+Type: *Link - ((link: docs/preliminary-studies/bibliographic-register text: Bibliographic Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Start Date)
+*Indicates the start date of the research.*
+Type: *Date*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: End Date)
+*Indicates the end date of the research.*
+Type: *Date*
+Required: *NO*
+Repeatable: *NO*

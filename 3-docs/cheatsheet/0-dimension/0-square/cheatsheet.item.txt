@@ -1,0 +1,28 @@
+Title:
+
+$dimension->square()
+
+----
+
+Excerpt:
+
+Checks if the dimensions are square
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if($page->image()->square()): ?>
+This image is square
+<?php endif ?>
+```

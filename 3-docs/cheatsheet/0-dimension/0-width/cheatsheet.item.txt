@@ -1,0 +1,26 @@
+Title:
+
+$dimension->width()
+
+----
+
+Excerpt:
+
+Returns the width in pixels
+
+----
+
+Return:
+
+type: integer
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->image()->width() ?>
+```

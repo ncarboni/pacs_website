@@ -1,0 +1,9 @@
+Title: Acquisition
+
+----
+
+Description: Registers regarding the planning and acquisition phase
+
+----
+
+Text: 

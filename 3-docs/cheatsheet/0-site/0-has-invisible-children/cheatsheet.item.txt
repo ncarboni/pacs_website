@@ -1,0 +1,20 @@
+Title:
+
+$site->hasInvisibleChildren()
+
+----
+
+Excerpt:
+
+Checks if there are any invisible children placed directly in /content
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:

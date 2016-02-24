@@ -1,0 +1,22 @@
+Title: $field->lower()
+
+----
+
+Excerpt: Converts the field content to lowercase
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<h1><?php echo $page->title()->lower()->html() ?></h1>
+```

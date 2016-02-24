@@ -1,0 +1,22 @@
+Title: excerpt($text, $length = 140)
+
+----
+
+Excerpt: Creates an excerpt of any text by a given character length
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo excerpt($page->text(), 300) ?>
+```

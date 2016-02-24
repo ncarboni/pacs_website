@@ -1,0 +1,28 @@
+Title:
+
+$user->is($someone)
+
+----
+
+Excerpt:
+
+Checks if the user is the same as the given $user object
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if($site->user()->is($site->user('bastian'))): ?>
+Put some message here.
+<?php endif ?>
+```

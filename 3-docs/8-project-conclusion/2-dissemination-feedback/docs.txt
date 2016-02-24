@@ -1,0 +1,59 @@
+Title: Dissemination Feedback
+
+----
+
+Description: Overall assessment of the set of resource produced
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Relevant Question)
+*Here the initial question which was meant to be answered by the digital acquisition is referenced.*
+Type: *Link - ((link: docs/project-definition/question-register text: Question Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l2: Product Evaluation)
+---
+
+(l3: Product Delivered)
+*Link to Client Individual Product Feedback above. Lists all products generated in order to respond to the initial research question.*
+Type: *Link - ((link: docs/project-conclusion/client-individual-product-feedback-form text: Client Individual Product Feedback Register))
+Required: *YES*
+Repeatable: *YES*
+
+(l2: Overall Evaluation)
+---
+
+(l3: Was Dissemination Appropriate?)
+*Here appropriateness of of dissemination evaluated.*
+Type: *Boolean*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Evaluation Criteria)	
+*Here the multiple criteria and evaluations supporting the evaluation of appropriateness are indicated.*
+Type: *Text from Controlled List - ((link: http://# text: Evaluation Criteria)) + Text*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Was targeted public satisfied?)	
+*Here the satisfaction of the public is indicated.*
+Type: *Scale*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Dissemination Evaluation Criteria)	
+*Here the criterion for the satisfaction of the public is indicated along with the actual value attributed.*
+Type: *Text from Controlled List - ((link: http://# text: Evaluation Criteria)) + Text*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Dissemination Documented In)
+*Here any place where the dissemination was documented is indicated.*
+Type: *Link - ((link: docs/preliminary-studies/bibliographic-register text: Bibliographic Register))*
+Required: *NO*
+Repeatable: *YES*

@@ -1,0 +1,20 @@
+Title:
+
+$page->hasFiles()
+
+----
+
+Excerpt:
+
+Checks if there are any files in the page's directory.
+
+----
+
+Return:
+
+type: integer
+text:
+
+----
+
+Text:

@@ -1,0 +1,31 @@
+Title:
+
+$user->avatar()
+
+----
+
+Excerpt: Returns the user avatar object if the avatar exists
+
+----
+
+Return:
+
+type: $avatar
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if($avatar = $site->user('bastian')->avatar()): ?>
+<img src="<?php echo $avatar->url() ?>" alt="Bastian's avatar">
+<?php endif ?>
+```
+
+## Avatar storage
+
+All avatars must go into `/assets/avatars`.
+Avatars can be jpg, gif or png files and must have the username as filename.

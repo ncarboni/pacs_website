@@ -1,0 +1,20 @@
+Title:
+
+$page->isVisible()
+
+----
+
+Excerpt:
+
+Checks if the page is visible
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:

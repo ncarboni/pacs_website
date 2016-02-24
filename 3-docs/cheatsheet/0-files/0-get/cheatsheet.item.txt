@@ -1,0 +1,26 @@
+Title:
+
+$files->get($filename)
+
+----
+
+Excerpt:
+
+Returns a single file by filename
+
+----
+
+Return:
+
+type: $file
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->files()->get('myfile.pdf')->url() ?>
+```

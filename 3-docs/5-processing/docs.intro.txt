@@ -1,0 +1,9 @@
+Title: Processing
+
+----
+
+Description: Information regarding how the acquired digital assets are processed
+
+----
+
+Text: To add description

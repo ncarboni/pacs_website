@@ -1,0 +1,26 @@
+Title:
+
+$file->url()
+
+----
+
+Excerpt:
+
+Returns the absolute URL for a file.
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->file('myimage.jpg')->url() ?>
+```

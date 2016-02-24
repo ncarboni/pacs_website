@@ -1,0 +1,89 @@
+Title: Dissemination Project Register
+
+----
+
+Description: Wrapper for the overall dissemination project
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Dissemination Project Name)
+*Here the name of the planned dissemination project is indicated.*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Dissemination Action ID)
+*Here a unique id is given to the dissemination action in order to uniquely refer to it.*
+Type: *Text*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Dissemination Responsible Name)	
+*Here the individual or institution responsible for planning the dissemination is indicated.*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: CH Object to be Disseminated)	
+*Here the list of CH objects which are relevant to the particular dissemination project are linked.*
+Type: *Link - ((link: docs/general-register/object text: Object Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Dissemination Goal)	
+*Here the overall aim(s) of the dissemination project are listed.*
+Type: *Text from Controlled List - ((link: http://# text: Dissemination Goal))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Dissemination target public)	
+*Here the target audience(s) for the dissemination product are entered.*
+Type: *Text from Controlled List - ((link: http://# text: Target Public))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Target language)	
+*Here the languages in which the dissemination product are to be produced are indicated.*
+Type: *Text from Controlled List - ((link: http://# text: Language))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Products Expected)	
+*Here the dissemination project planner indicates the kind of products expected. They are also able to indicate in a long text form, specific product specifications that need to be met.*
+Type: *Text from Controlled List - ((link: http://# text: Digital Product Types)) + Text*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Acquisition Product Dependency)	
+*Here the dissemination project manager indicates the acquisition product types that this project will depend on, the date required and the date received.*
+Type: *Text from Controlled List - ((link: http://# text: Acquisition Product Type)) + Date (projected) + Date (delivered)*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Processing Product Dependency)	
+*Here the dissemination project manager indicates the processing product types that this project will depend on, the date required and the date received.*
+Type: *Text from Controlled List - ((link: http://# text: Processed Product Type)) + Date (projected) + Date (delivered)*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Dissemination Target Dates)	
+*Here the dissemination project manager indicates the target date for completion of the dissemination product.*
+Type: *Date*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Dissemination Actual Dates)	
+*Here the dissemination project manager indicates the actual date of completion of the dissemination product.*
+Type: *Date*
+Required: *NO*
+Repeatable: *NO*
+
+(l3:Related Documents)
+*Here the data project can be linked to the various supporting documents related to the dissemination project.*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*

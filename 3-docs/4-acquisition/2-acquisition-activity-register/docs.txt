@@ -1,0 +1,130 @@
+Title: Acquisition Activity Register
+
+----
+
+Description: Methodology used and conditions used in each acquisitions step.
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Acquisition ID)
+*ID of the specific acquisition.*
+Type: *Text*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Acquisition Name)
+*Here the name of the acquisition activity is entered in order to make reference to it in the future.*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Part Of Acquisition)
+*Define the link between the acquisition activity and the overall acquisition plan*
+Type: *Link - ((link: docs/acquisition/acquisition-project-register text: Acquisition Project Register))*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Acquisition Method)
+*Here the method used in this particular acquisition activity is indicated.*
+Type: *Text from Controlled List - ((link: http://# text: Acquisition Method))*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Object Digitized & Area)
+*Here a link to the particular object(s) being acquired in this particular acquisition activity is made. The list of objects is connected to the overall digital survey project object register (see step 0). Additionally, a text can be added in order to indicate the particular part of the object that was scanned. This is particularly useful is the object is of large scale.*
+Type: *Link - ((link: docs/general-register/object text: Object Register)) + Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Digitization Area Scale	)
+*Here the scale of the object to be digitised is given according to a predetermined list. It is used in order to help understanding the size of the section of the object that is to be or was digitised.*
+Type: *Text from Controlled List - ((link: http://# text: Digitization Scale Type))*
+Required: *NO* 
+Repeatable: *NO*
+
+(l3: Starting time)
+*Here the starting date of the specific acquisition project is entered.*
+Type: *Date*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Ending time)
+*Here the ending date of the specific acquisition project is entered.*
+Type: *Date*
+Required: *YES*
+Repeatable: *NO*
+
+
+
+(l2: Environmental Conditions)
+___
+
+(l3: Environment)
+*Here the overall environment in which the acquisition took place is indicated from an enumerated list.*
+Type: *Control List ((link: http://# text: Environment Type))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Weather)
+*Here, if the overall environment is indicated to be outdoor, overall weather conditions for the outdoor environment during the acquisition activity are indicated.*
+Type: *Control List ((link: http://# text: Weather Type))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Light Temperature)
+*Here the light temperature in Kelvin relevant to the time of acquisition is recorded.*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Light Type)
+*Here the light type is indicated.*
+Type: *Control List ((link: http://# text: Light Type))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Temperature)
+*Here the prevailing temperature in the environment of the acquisition activity for the time of the activity is indicated in degrees celsius.*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Altitude)
+*Here the altitude in metres from sea level for the location at which the acquisition activity took place is indicated.*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Air Pressure)
+*Here the air pressure for the location at which the acquisition activity took place is indicated.*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Acquisition Sketch/Digital Assets Related)
+*Here a link can be made to the digital objects register of the overall digital survey project (see Step 0). For acquisition that include acquisition sketches, the acquisition sketch would be attached here. Additionally, other relevant digital documents can be added in supporting the documentation of this particular acquisition activity.*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Actor Operators)
+*Here the individuals who carried out the particular acquisition activity are listed along with what role they played in action and what equipment they operated*
+Type: Type: *Link - ((link: docs/general-register/actor-register text: Actors Register)) + Control List ((link: http://# text: Role Type)) + Link - ((link: docs/general-register/equipment-register text: Equipment))* 
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Created Digital Assets)
+*Here the digital objects that were created by the acquisition activity are listed. Each digital object should be added as a new entry to the overall Digital Survey project’s Digital Asset Register (see step 0). In the case of photogrammetry or other processes resulting in many files, it may be preferable to save all files in a zip file or tarball in order to lessen the documentation burden in practical terms.*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Note	)
+*Here any additional commentary on the acquisition activity can be added.*
+Type: *Long Text*
+Required: *NO*
+Repeatable: *NO*

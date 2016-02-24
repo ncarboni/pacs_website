@@ -1,0 +1,7 @@
+Title: Cheat Sheet
+
+----
+
+Description: A comprehensive list of Kirby's API methods and examples how to use them.
+
+----

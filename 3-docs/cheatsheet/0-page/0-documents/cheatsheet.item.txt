@@ -1,0 +1,36 @@
+Title:
+
+$page->documents()
+
+----
+
+Excerpt:
+
+Returns a $files collection with all documents in the page's directory
+
+----
+
+Return:
+
+type: $files
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<h2>Available PDFs</h2>
+<ul>
+  <?php foreach($page->documents()->filterBy('extension', 'pdf') as $pdf): ?>
+  <li>
+    <a href="<?php echo $pdf->url() ?>">
+      <?php echo $pdf->filename() ?>
+      (<?php echo $pdf->niceSize() ?>)
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

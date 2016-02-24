@@ -1,0 +1,65 @@
+Title: Dissemination Product Development Plan
+
+----
+
+Description: Documentatation of the plan to be followed during the dissemination phase
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Dissemination Product Plan Title)
+*Here a name is given to the dissemination project product development plan.*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Part of Dissemination Project)
+*Indicate the relationships between this steps and the Dissemination Project.*
+Type: *Link - ((link: docs/visualisation-dissemination/dissemination-project-register text: Dissemination Project Register))
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Description)	
+*Here the overall plan is described in a  free text form.*
+Type: *Text*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Software to be Used	)	
+*Here a list of software programmes to be used the particular processing loop are listed in order to provide provenance of software input in the process. The terms are selected from a control list enumerated at the end of this document.*
+Type: *Text from Controlled List - ((link: http://# text: Software))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Hardware to be used)	
+*Here a link to the hardware devices to be used in the carrying out of the processing planned in this step is made. The hardware devices can be entered once in the equipment register and can thereafter simply be linked to.*
+Type: *Link - ((link: docs/general-register/equipment-register text: Equipment Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Methodology to be Used)	
+*Here the methodology to be employed in executing this processing loop is specified by picking from a controlled list of methodologies. This list is enumerated at the end of this document.*
+Type: *Text from Controlled List - ((link: http://# text: Methodology))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Site Visit Assets Used)
+*Here relevant site visit data collected during preliminary studies can be linked to the dissemination project plan to serve as a resource for executing the plan.*
+Type: *Link - ((link: docs/preliminary-studies/site-visit-register text: Site Visit Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Digital Objects Used)
+*Here relevant digital objects from the overall digital object register can be linked to the dissemination project plan to serve as a resource for executing the plan.*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Bibliographic Data Used)
+*Here relevant bibliographic data gathered during the preliminary studies phase can be linked to the dissemination project plan to serve as a resource for executing the plan.*
+Type: *Link - ((link: docs/preliminary-studies/bibliographic-register text: Bibliographic Register))*
+Required: *NO*
+Repeatable: *YES*

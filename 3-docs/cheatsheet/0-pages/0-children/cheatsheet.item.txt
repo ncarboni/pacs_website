@@ -1,0 +1,25 @@
+Title:
+
+$pages->children()
+
+----
+
+Excerpt:
+
+Returns a $pages collection with all children of each page in the collection.
+
+----
+
+Return:
+
+type: $pages
+text: 
+
+----
+
+Text:
+
+```php
+// fetching the grandchildren of a page
+<?php echo $page->children()->children() ?>
+```

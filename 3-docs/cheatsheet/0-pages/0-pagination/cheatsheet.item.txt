@@ -1,0 +1,24 @@
+Title:
+
+$pages->pagination()
+
+----
+
+Excerpt:
+
+Returns the $pagination object if available.
+
+----
+
+Return:
+
+type: $pagination
+text: 
+
+----
+
+Text:
+
+## Related
+
+Check out the (link: docs/cheatsheet#pagination text: docs for the $pagination object)

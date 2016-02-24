@@ -1,0 +1,20 @@
+Title:
+
+$page->isDescendantOfActive()
+
+----
+
+Excerpt:
+
+Checks if the page is a descendant of the currently active page.
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:

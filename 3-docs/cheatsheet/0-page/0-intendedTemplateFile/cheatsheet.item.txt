@@ -1,0 +1,20 @@
+Title:
+
+$page->intendedTemplateFile()
+
+----
+
+Excerpt:
+
+Returns the path for the intended template file.
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:

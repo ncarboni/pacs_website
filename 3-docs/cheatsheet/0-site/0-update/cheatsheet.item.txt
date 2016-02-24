@@ -1,0 +1,40 @@
+Title:
+
+$site->update($data = array())
+
+----
+
+Excerpt:
+
+Updates all given site variables, which are stored in site.txt
+
+----
+
+Return:
+
+type: $site
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+try {
+
+  $site->update(array(
+    'title'       => 'My Site',
+    'description' => 'it is really nice',
+  ));
+
+  echo 'The site info has been updated';
+
+} catch(Exception $e) {
+
+  echo $e->getMessage();
+
+}
+
+```

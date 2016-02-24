@@ -1,0 +1,27 @@
+Title:
+
+$page->isDeletable()
+
+----
+
+Excerpt:
+
+Checks if the page is deletable.
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+```php
+<?php if($page->isDeletable()): ?>
+This page could be deleted,
+but you probably wouldn't want that, right?
+<?php endif ?>
+```

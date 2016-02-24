@@ -1,0 +1,20 @@
+Title:
+
+$page->content()
+
+----
+
+Excerpt:
+
+Returns the page's $content object
+
+----
+
+Return:
+
+type: $content
+text:
+
+----
+
+Text:

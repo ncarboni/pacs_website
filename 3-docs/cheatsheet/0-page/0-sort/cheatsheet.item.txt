@@ -1,0 +1,36 @@
+Title:
+
+$page->sort($num)
+
+----
+
+Excerpt:
+
+Changes the sorting number of the page.
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+try {
+
+  page('invisible-page')->sort(12);
+  echo 'The page is now visible and has the sorting number 12';
+
+} catch(Exception $e) {
+
+  echo $e->getMessage();
+
+}
+
+```

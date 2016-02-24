@@ -1,0 +1,20 @@
+Title:
+
+$page->hasChildren()
+
+----
+
+Excerpt:
+
+Checks if the page has children.
+
+----
+
+Return:
+
+type: integer
+text:
+
+----
+
+Text:

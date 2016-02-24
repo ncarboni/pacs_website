@@ -1,0 +1,20 @@
+Title:
+
+$page->hasNext()
+
+----
+
+Excerpt:
+
+Checks if the page has a next sibling.
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:

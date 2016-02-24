@@ -1,0 +1,22 @@
+Title: $roots->fields()
+
+----
+
+Excerpt: Returns the root of the fields folder.
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirby()->roots()->fields() ?>
+```

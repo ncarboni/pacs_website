@@ -1,0 +1,22 @@
+Title: vimeo($url)
+
+----
+
+Excerpt: Embeds a Vimeo video by URL
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo vimeo('http://vimeo.com/106181453') ?>
+```

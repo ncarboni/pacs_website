@@ -1,0 +1,40 @@
+Title: Analysis
+
+----
+
+Year: 
+
+----
+
+Text: 
+
+(image: step5.png)
+
+The completion of a cycle of acquisition and processing allows the ability to proceed to an analysis phase in which the resulting products of these phases can go through a testing process in order to understand if they support a possible responsible to the initial research questions posed. Here we can envision specialists in a team or even clients, if the specialists are not part of the acquisition team, engaging in a review process of the raw acquisition products and/or the processed data. We break up the evaluation and analysis stage into main parts: a general part, broken up by questions and a particular part, for each question in which individual data objects are evaluated.
+
+For each question posed at the beginning of the project an analysis form is to be filled out indicating the products produced and giving an overall rating of the methodology adopted and the answers generated from the data objects generated. Here we have in mind a comparison of the objects against a broader and less technical criteria than those envisioned in the self testing aspects of the acquisition and processing steps of the digital survey. The question is not test for levels of accuracy in the technical execution of the digital products. Rather the question is to understand whether or not the products produced were able to support an interpretation which would lead to some negative or positive conclusion in relation to the original question. Regardless of the result, a documentation of the evaluation of the methods employed and the method of evaluation provides the possibility of ameliorating future efforts to answer questions in a similar direction. Wherever possible links to published data are encouraged.
+
+In the second, more specific step, an evaluation of the individual data products related to the question is given in terms of an overall acceptance or rejection of the product. This step therefore has the ability to restart an acquisition or data processing project depending on the outcome of the product evaluation.
+
+<table style="width:100%">
+   <tr>
+     <td><strong>Name<strong></td>
+     <td><strong>Element<strong></td> 
+   </tr>
+   <tr>
+     <td>Central Register</td>
+     <td>(link: docs/analysis/products-evaluation text: Product Evaluation), (link: docs/analysis/answer-evaluation-register text: Answer Evaluation Register)</td> 
+   </tr>
+   <tr>
+     <td>Supporting Register</td>
+     <td>(link: docs/project-definition/question-register text: Question), (link: docs/general-register/actor-register text: Actors), (link: docs/general-register/object text: Object), <(link: docs/general-register/digital-asset text: Digital Assets), (link: docs/preliminary-studies/bibliographic-register text: Bibliographic)</td> 
+   </tr>
+   <tr>
+     <td>Related Control Lists</td>
+     <td><a href="#">Evaluation Criteria</a></td> 
+   </tr>
+ </table>
+
+----
+
+Tags: 

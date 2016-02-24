@@ -1,0 +1,36 @@
+Title: Conclusion
+
+----
+
+Year: 
+
+----
+
+Text: 
+
+(image: step7.png)
+
+The completion of a digital survey project is signaled by the handing over of the requested final products. The project then should be concluded on a checking step, in which the final products are delivered to the client (be it internal researcher or external contracting actor) and their acceptance or rejection of the end products should be recorded. Where rejection of a product in part of in total is a result, new processes of acquisition, processing and dissemination production creation can be triggered. Again, the evaluation of the dissemination products can be considered as a parallel to the evaluation of the processing and acquisition outputs. The ability to evaluate both on a global scale with regards to fitness to purpose, this time with regards to audience and dissemination goal, and with regards to the individual products within the overall dissemination product should be made available and recorded in order to manage quality control both in the short term and as a long term research resource.
+
+<table style="width:100%">
+   <tr>
+     <td><strong>Name<strong></td>
+     <td><strong>Element<strong></td> 
+   </tr>
+   <tr>
+     <td>Central Register</td>
+     <td>(link: docs/project-conclusion/client-individual-product-feedback-form text: Client Individual Product Feedback), (link: docs/project-conclusion/dissemination-feedback text: Dissemination Feedback)</td> 
+   </tr>
+   <tr>
+     <td>Supporting Register</td>
+     <td>(link: docs/project-definition/question-register text: Question), (link: docs/visualisation-dissemination/dissemination-project-register text: Dissemination Project), (link: docs/preliminary-studies/bibliographic-register text: Bibliographic) </td> 
+   </tr>
+   <tr>
+     <td>Related Control Lists</td>
+     <td><a href="#">Evaluation Criteria</a></td>
+   </tr>
+ </table>
+
+----
+
+Tags: 

@@ -1,0 +1,26 @@
+Title:
+
+$file->extension()
+
+----
+
+Excerpt:
+
+Returns the file extension
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->file()->extension();
+```

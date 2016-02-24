@@ -1,0 +1,41 @@
+Title: Answer Evaluation Register
+
+----
+
+Description: Overall assessment of the set of resource produced
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Relevant Question)
+*Here the initial question which was meant to be answered by the digital acquisition is referenced.*
+Type: *Link - ((link: docs/project-definition/question-register text: Question Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l2: Product Evaluation)
+---
+
+(l3: Product Evaluation)
+*Link to Product Evaluation Register above. Lists all products generated in order to respond to the initial research question.*
+Type: *Link - ((link: docs/analysis/products-evaluation text: Product Evaluation Register))
+Required: *YES*
+Repeatable: *YES*
+
+(l2: Overall Evaluation)
+---
+
+(l3: Was Question Answered?)	
+*Here the Analyst/Evaluator indicates whether or not the digitised objects provided sufficient information to provide an answer to the question posed. They also indicate in a free form text, the reason for this evaluation.*
+Type: *Boolean + Long Text*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Answer Documented In)	
+*Here a reference is provided to any published material in which the full evaluation of the question is provided.*
+Type: *Link - ((link: docs/preliminary-studies/bibliographic-register text: Bibliographic Register))*
+Required: *NO*
+Repeatable: *YES*

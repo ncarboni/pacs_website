@@ -1,0 +1,40 @@
+Title:
+
+$dimension->fit()
+
+----
+
+Excerpt:
+
+Fits the width and height into a box by the given value and returns a modified dimension object
+
+----
+
+Return:
+
+type: $image
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php
+
+$image = $page->image();
+
+// recalculate the image dimensions and fit them into a box of max 300px
+$image->dimensions()->fit(300);
+
+echo html::tag('img', array(
+  'src'    => $image->url(),
+  'width'  => $image->width(),
+  'height' => $image->height()
+));
+
+?>
+
+```

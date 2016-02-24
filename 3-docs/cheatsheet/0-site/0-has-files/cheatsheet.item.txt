@@ -1,0 +1,20 @@
+Title:
+
+$site->hasFiles()
+
+----
+
+Excerpt:
+
+Checks if there are any files placed directly in /content
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:

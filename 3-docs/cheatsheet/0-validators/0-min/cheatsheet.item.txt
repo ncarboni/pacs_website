@@ -1,0 +1,36 @@
+Title: Min
+
+----
+
+Excerpt: Checks for a value that is greater or equals the given minimum
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+## In your code
+
+```php
+if(v::min(10, 5)) {
+  echo 'Yay, valid!';
+}
+
+```
+
+## In panel fields
+
+```
+fields:
+  example:
+    label: Example field
+    type: text
+    validate:
+      min: 5
+```

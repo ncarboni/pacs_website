@@ -1,0 +1,20 @@
+Title:
+
+$page->hasNextVisible()
+
+----
+
+Excerpt:
+
+Checks if the page has a next visible sibling
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:

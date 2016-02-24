@@ -1,0 +1,35 @@
+Title:
+
+$pages->shuffle()
+
+----
+
+Excerpt:
+
+Shuffles all items in the collection.
+
+----
+
+Return:
+
+type: $pages
+text: 
+
+----
+
+Text:
+
+## Example
+
+```php
+<h2>Random subpages</h2>
+<ul>
+  <?php foreach($page->children()->shuffle() as $subpage): ?>
+  <li>
+    <a href="<?php echo $subpage->url() ?>">
+      <?php echo html($subpage->title()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

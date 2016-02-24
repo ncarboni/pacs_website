@@ -1,0 +1,22 @@
+Title: $field->markdown()
+
+----
+
+Excerpt: Converts markdown to valid HTML
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->text()->markdown() ?>
+```

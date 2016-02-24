@@ -1,0 +1,26 @@
+Title:
+
+$file->hash()
+
+----
+
+Excerpt:
+
+Returns an md5 hash for the root of the file.
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->file('myfile.pdf')->hash() ?>
+```

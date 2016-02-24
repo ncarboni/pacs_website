@@ -1,0 +1,55 @@
+Title: Bibliographic Register
+
+----
+
+Description: Biblographic resource concerning the cultural object or its context
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Publication type	)
+*Type of publication described. 
+e.g. article, book etc.*
+Type: *Text from Controlled List - ((link: http://# text: Publication Type))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Title)
+*Title of the resource*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Author)
+*Creator of the described resource.*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Title of the container)
+*Title of the overall container of the bibliographic work. 
+e.g. in case of article the title of the journal*
+Type: *Link - ((link: docs/preliminary-studies/bibliographic-register text: Bibliographic Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Publication date)
+*Date that the document was published.*
+Type: *Date*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Edition)
+*Version of the resource took in consideration.*
+Type: *Text*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Digital Representation)
+*Digital file associated with the resource*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*

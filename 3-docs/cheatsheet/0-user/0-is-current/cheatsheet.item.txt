@@ -1,0 +1,28 @@
+Title:
+
+$user->isCurrent()
+
+----
+
+Excerpt:
+
+Checks if the user is the currently logged in user.
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if($site->user('bastian')->isCurrent()): ?>
+Bastian is the currently logged in user.
+<?php endif ?>
+```

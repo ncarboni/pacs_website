@@ -1,0 +1,29 @@
+Title:
+
+$file->next()
+
+----
+
+Excerpt:
+
+Returns the next sibling
+
+----
+
+Return:
+
+type: $file
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+if($next = $page->file('myfile.pdf')->next()) {
+  echo 'Next file: ' . $next->filename();
+}
+
+```

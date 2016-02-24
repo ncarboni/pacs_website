@@ -1,0 +1,20 @@
+Title:
+
+$pages->map($callback)
+
+----
+
+Excerpt:
+
+Returns a new collection and applies the mapping callback to all pages.
+
+----
+
+Return:
+
+type: $pages
+text: 
+
+----
+
+Text:

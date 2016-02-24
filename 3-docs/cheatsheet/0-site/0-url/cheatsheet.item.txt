@@ -1,0 +1,34 @@
+Title:
+
+$site->url()
+
+----
+
+Excerpt:
+
+Returns the base URL for the site
+
+----
+
+Return:
+
+type: string
+text:
+
+----
+
+Text:
+
+## Example
+
+### Fetching the base URL for the site
+
+```php
+<?php echo $site->url() ?>
+```
+
+### Fetching the base URL for a language
+
+```php
+<?php echo $site->url('en') ?>
+```

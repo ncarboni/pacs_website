@@ -1,0 +1,102 @@
+Title: Project register
+
+----
+
+Description: Metadata for documenting the overall project
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Project ID)
+*A unique ID given by the institution to allow this project to be unambiguously identified into the future *
+Type: *Text*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Project Title)
+*A title given for the project to help identify it in the future.*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Type)
+*A value indicating the kind of project to be undertaken. *
+Type: *Text from Controlled List - ((link: http://# text: Project Types))*
+Required: *NO*
+Repeatable: *YES*
+
+
+(l3: Digitization to be produced for	)
+*The institution or person for which/whom the project is undertaken.	*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Institution responsible)
+*The institution or person undertaking the responsibility for the execution of the project.*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Project Members)
+*List of individuals assigned to the project and the general role assigned to them. *
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))* + Control List ((link: http://# text: Actor Role))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Object/s in consideration)
+*A list of the object or objects that are the focus of the project*
+Type: *Link - ((link: docs/general-register/object text: Object Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Project Start Date)
+*Indicates the start date of the project.*
+Type: *Date*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Project End Date)
+*Indicates the end date of the project.*
+Type: *Date*
+Required: *YES*
+Repeatable: *NO*
+
+(l2: Project Evaluation Details)
+___
+(l3: Project Accepted)
+*Here the acceptance or rejection of the project is indicated.*
+Type: *Boolean*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Date Acceptance)
+*The date on which the approval for the project was given*
+Type: *Date*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Project Approved by)
+*The individual(s) or institution(s) responsible for approving the project.*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Project Acceptance/Rejection Reason)
+*Reason for accepting or rejecting project*
+Type: *Long Text*
+Required: *NO*
+Repeatable: *YES*
+
+(l2: Related Documentation)
+___
+
+(l3: Project Documents	)
+*List of Project Documents
+e.g. Requirements Documents, Contract, Overall Permissions, Risk Management Study Docs, Quality Certificates of Company*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*

@@ -1,0 +1,26 @@
+Title:
+
+$pages->first()
+
+----
+
+Excerpt:
+
+Returns the first $page object from the collection
+
+----
+
+Return:
+
+type: $page
+text: 
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->children()->first()->title() ?>
+```

@@ -1,0 +1,65 @@
+Title: Client Individual Product Feedback Form
+
+----
+
+Description: Documentation on the client reaction of a single product
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Relevant Question)
+*Here the initial question which triggered the creation of this digital product is referenced.*
+Type: *Link - ((link: docs/project-definition/question-register text: Question Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Dissemination Project Evaluated)
+*Indicate the relationships between this steps and the Dissemination Project.*
+Type: *Link - ((link: docs/visualisation-dissemination/dissemination-project-register text: Dissemination Project Register))
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Delivered to Client)
+*Here whether the product was delivered to client or not is indicated.*
+Type: *Boolean*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Date of Delivery)	
+*Here the date on which the product was delivered to the client is indicated.*
+Type: *Date*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Accepted by Client)	
+*Here whether or not the client accepted the product is indicated.*
+Type: *Boolean*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Date of Acceptance)	
+*Here the date on which the product was accepted is indicated.*
+Type: *Date*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Was the client satisfied?)
+*Here the satisfaction of the client is indicated in boolean format.*
+Type: *Boolean*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Client comment	)	
+*Here a text field is provided to allow for explanation of client response.*
+Type: *Text*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Date of Comment)	
+*Here the date of the client’s response is indicated.*
+Type: *Date*
+Required: *NO*
+Repeatable: *NO*

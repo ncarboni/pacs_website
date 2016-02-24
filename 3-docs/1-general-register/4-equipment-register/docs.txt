@@ -1,0 +1,66 @@
+Title: Equipment Register
+
+----
+
+Description: Descriptors for the equipment used during the process
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Name)
+*Indicate the name of the documented item*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: ID)
+*A unique ID assigned to the item*
+Type: *Text*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Sensor Type)
+*Type of sensor*
+Type: *Text*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Sensor Dimensions)
+*Sensor width and height expressed in mm*
+Type: *Number*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Maximum sensor resolution)
+*Maximum sensor width and height in pixels*
+Type: *Number*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Pixel Pitch)
+*The size of each pixel, considering it square
+e.g. 6 μm*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Principal Point)
+*Intersection point of the optical axis and the image plane (Kraus, 2000). Here we need coordinates x0,y0*
+Type: *Number*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Documents	)
+*Documents associated with this particular piece of equipment*
+Type: *Link - ((link: http://# text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Shutter Modes)
+*Register the shutter modes available at the camera body*
+Type: *Text from Controlled List - ((link: http://# text: Shutter Modes))*
+Required: *NO*
+Repeatable: *NO*

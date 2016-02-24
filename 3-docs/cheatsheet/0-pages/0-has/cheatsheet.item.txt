@@ -1,0 +1,26 @@
+Title:
+
+$pages->has($page)
+
+----
+
+Excerpt:
+
+Checks if a $page object is included in the collection
+
+----
+
+Return:
+
+type: boolean
+text: 
+
+----
+
+Text:
+
+```php
+<?php if($page->children()->has('some-page')): ?>
+There exists a subpage with the uid `some-page`
+<?php endif ?>
+```

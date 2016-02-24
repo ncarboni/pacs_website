@@ -1,0 +1,27 @@
+Title:
+
+$pages->findBy($field, $value)
+
+----
+
+Excerpt:
+
+Finds a single $page object in the collection by $field and $value
+
+----
+
+Return:
+
+type: $page
+text: 
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->children()->findBy('uid', 'some-page')->title() ?>
+
+```

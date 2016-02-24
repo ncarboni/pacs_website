@@ -1,0 +1,30 @@
+Title:
+
+$file->modified($format = false)
+
+----
+
+Excerpt:
+
+Returns the unix timestamp or a formatted date for when the file has been modified
+
+----
+
+Return:
+
+type: integer | string
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+// unix timestamp
+echo $page->file()->modified();
+
+// formatted date
+echo $page->file()->modified('d/m/Y');
+```

@@ -1,0 +1,59 @@
+Title: Processing Plan Register
+
+----
+
+Description: Documentatation of the plan to be followed during the processing phase
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Process Plan Title)
+*Here the name of the data processing plan is indicated for future reference.*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Process Plan ID)
+*Here the id of the data processing plan is indicated for future reference.*
+Type: *Text*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Part of Processing Project)	
+*Indicate the relationships between this steps and the overall Processing Project*
+Type: *Link - ((link: docs/processing/processing-project-register text: Processing Project Register))*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Processing type)	
+*Here we indicate the type of data processing planned.*
+Type: *Text from Controlled List - ((link: http://# text: Processing Type))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Description	)
+*Here a free text description of the processing plan is provided in order to give a sense of the overall strategy adopted.*
+Type: *Text*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Software to be used)	
+*Here a list of software programmes to be used the particular processing loop are listed in order to provide provenance of software input in the process. The terms are selected from a control list enumerated at the end of this document and should include the version number.*
+Type: *Text from Controlled List - ((link: http://# text: Software))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Hardware to be used)	
+*Here a link to the hardware devices to be used in the carrying out of the processing planned in this step is made. The hardware devices can be entered once in the equipment register and can thereafter simply be linked to.*
+Type: *Link - ((link: docs/general-register/equipment-register text: Equipment Register))*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Methodology to be Used)	
+*Here the methodology to be employed in executing this processing loop is specified by picking from a controlled list of methodologies. This list is enumerated at the end of this document.*
+Type: *Text from Controlled List - ((link: http://# text: Methodology))*
+Required: *YES*
+Repeatable: *NO*

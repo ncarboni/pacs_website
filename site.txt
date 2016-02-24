@@ -1,0 +1,17 @@
+Title: PACS
+
+----
+
+Author: Nicola Carboni
+
+----
+
+Description: Photogrammetric Acquisition Conceptual Schema
+
+----
+
+Keywords: Photogrammetry, Metadata, Documentation, Process Analysis, Data Provenance
+
+----
+
+Copyright: CC-BY

@@ -1,0 +1,31 @@
+Title:
+
+$file->hasPrev()
+
+----
+
+Excerpt:
+
+Checks if there's a previous sibling
+
+----
+
+Return:
+
+type: boolean
+text:
+
+----
+
+Text:
+
+## Example
+
+```php
+$file = $page->file('myfile.pdf');
+
+if($file->hasPrev()) {
+  echo 'Previous file: ' . $file->prev()->filename();
+}
+
+```

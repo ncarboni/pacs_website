@@ -1,0 +1,83 @@
+Title: Acquisition Project Register
+
+----
+
+Description: Wrapper of the information regarding the overall acquisition.
+
+----
+
+Text: 
+
+(toc:4)
+
+(l3: Project Acquisition ID)
+*ID of the project acquisition*
+Type: *Text*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Project Acquisition Name)
+*Here the name of the overall acquisition project is entered in order to make reference to it in the future.*
+Type: *Text*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Part Of Project)
+*Specify part of which overall project*
+Type: *Link - ((link: docs/project-definition/project-register text: Project Register))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Object and Acquisition Feature)
+*Here a list of the objects to be scanned within the overall acquisition project is made. The objects are linked to from the overall project object register table. Additionally, a control term is added in order to indicate an overall estimation of the size of the object, the expected output, and the accuracy level aimed for in order to facilitate planning and execution of acquisition.
+Expected output of the acquisition project. For photogrammetry e.g.:
+DEM, Orthophoto, 3D points (and 3D model), maps, measurements, other (photogrammetric products)
+e.g. Castle + Large + Orthophoto + 1:50, GSD=0.0 1 cm*
+Type: *Link - ((link: docs/general-register/object text: Object Register))+ Text from Controlled List - ((link: http://# text: Object Scale Type)) + ((link: http://# text: Output Type)) + ((link: http://# text: Accuracy Level Type))*
+Required: *YES*
+Repeatable: *YES*
+
+(l3: Responsible)
+*Here a link to the overall project actor register is made in order to indicate the individual person or institution who is responsible for organizing and carrying out the overall acquisition project*
+Type: *Link - ((link: docs/general-register/actor-register text: Actors Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l3: Starting time)
+*Here the starting date of the overall acquisition project is entered.*
+Type: *Date*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Ending time)
+*Here the ending date of the overall acquisition project is entered. *
+Type: *Date*
+Required: *YES*
+Repeatable: *NO*
+
+(l3: Related Documents)
+*Here a list of all related documents to the overall acquisition project are entered. These document are assumed to be in digital format and are thus to be entered in the associated digital assets register*
+Type: *Link - ((link: docs/general-register/digital-asset text: Digital Assets Register))*
+Required: *NO*
+Repeatable: *YES*
+
+(l2: Related Results Evaluation)
+___
+
+(l3: Acquisition Conformed to Plan)
+*Here the actor responsible for the overall acquisition project indicates the overall accomplishment of the project relative to its goals.*
+Type: *Boolean*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Acquisition Satisfactoriness)
+*Here the actor responsible for the overall acquisition project can indicate a series of criteria by which they have evaluated the conformity of the acquisition project to its overall aims and the value they associate to it.*
+Type: *Text from Controlled List - ((link: http://# text: Evaluation Criteria)) + Value*
+Required: *NO*
+Repeatable: *NO*
+
+(l3: Results Analysis)
+*Here the actor responsible for the overall acquisition project can indicate in long text format an evaluation of the project, success, failure, further steps etc.*
+Type: *Long Text*
+Required: *NO*
+Repeatable: *NO*
